@@ -1,12 +1,8 @@
 # React Stencil Demo
 
-This demo theme is a modified version of [Cornerstone](https://github.com/bigcommerce/cornerstone) 4.2.0. A new module has been added to assets/js/theme/custom/react-demo.js which mounts a React componnet on a category page that is mapped to the react-demo.html custom category template. For information on mapping the custom category template to a page, see the [BigCommerce documentation](https://developer.bigcommerce.com/stencil-docs/storefront-customization/custom-templates).
-
-  
+This demo theme is a modified version of [Cornerstone](https://github.com/bigcommerce/cornerstone) 4.2.0. A new module has been added to assets/js/theme/custom/react-demo.js which mounts a React component on a category page that is mapped to the react-demo.html custom category template. For information on mapping the custom category template to a page, see the [BigCommerce documentation](https://developer.bigcommerce.com/stencil-docs/storefront-customization/custom-templates).
 
 The React component has access to the category page context (information like the products on the page, the category name, product images, add to cart links, etc.) from Stencil. The page context is injected by the `{{inject}}` helper in the custom react-demo.html template. You can use this as a starting point to build a category page with React, or implement the same pattern in a custom Product, Brand, or Web Page template.
-
-  
 
 #### License
 
