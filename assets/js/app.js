@@ -54,7 +54,7 @@ const pageClasses = {
 
 const customClasses = {
     'pages\\custom\\category\\react-demo': () => import('./theme/custom/react-demo'), // Windows
-    'pages/custom/category/react-demo': () => import('./theme/custom/react-demo.js'), // Mac/Linux
+    'pages/custom/category/react-demo': () => import('./theme/custom/react-demo'), // Mac/Linux
 };
 
 /**
