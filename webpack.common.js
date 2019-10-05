@@ -31,6 +31,7 @@ module.exports = {
                                 useBuiltIns: 'usage', // Tree-shake babel-polyfill
                                 targets: '> 1%, last 2 versions, Firefox ESR',
                             }],
+                            ['@babel/preset-react'],
                         ],
                     },
                 },
