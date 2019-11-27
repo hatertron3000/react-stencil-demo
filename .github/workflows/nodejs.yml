@@ -20,6 +20,8 @@ jobs:
 #        npm test
     - name: install Stencil CLI
       run: npm install -g @bigcommerce/stencil-cli
+    - name: install dependencies
+      run: npm install
     - name: deploy
       run: stencil push -a Light
       env:
