@@ -1,0 +1,13 @@
+{
+  "normalStoreUrl": "https://hatertron.ninja",
+  "accessToken": "lun2chhm7da8wt566dl9ow1yqs97ssj",
+  "port": 3000,
+  "customLayouts": {
+    "brand": {},
+    "category": {
+      "react-demo.html": "/puppy-food"
+    },
+    "page": {},
+    "product": {}
+  }
+}
