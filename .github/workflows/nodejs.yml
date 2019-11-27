@@ -25,7 +25,6 @@ jobs:
     - name: deploy
       run: |
         npm install -g @bigcommerce/stencil-cli
-        stencil init --url https://hatertron.ninja --token lun2chhm7da8wt566dl9ow1yqs97ssj
         stencil push -a Light
       env:
         CI: true
