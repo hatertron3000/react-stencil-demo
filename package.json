@@ -12,7 +12,7 @@
     "creditcards": "^3.0.1",
     "easyzoom": "^2.5.2",
     "foundation-sites": "^5.5.3",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "jstree": "vakata/jstree",
     "lazysizes": "5.2.1",
     "lodash": "^4.17.4",
